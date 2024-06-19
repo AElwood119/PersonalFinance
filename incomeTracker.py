@@ -59,6 +59,11 @@ def edit_entry() -> None:
     return
 
 
+# TODO: implement later
+def save_to_db(data):
+    pass
+
+
 if __name__ == "__main__":
     incomes = get_incomes()
     show_incomes(incomes)
