@@ -55,7 +55,7 @@ def edit_entry() -> None:
     if usr_in == "1":
         incomes[index].source = input("Input source of the entry: ")
     elif usr_in == "2":
-        incomes[index].amount = input("Input amount of the entry: ")
+        incomes[index].amount = float(input("Input amount of the entry: "))
     return
 
 
