@@ -1,4 +1,5 @@
 from incomeTracker import *
+<<<<<<< HEAD
 import tkinter as tk
 
 root = tk.Tk()
@@ -34,3 +35,8 @@ button = tk.Button(root, text="Save & Exit", font=("Arial", 12))
 button.pack()
 
 root.mainloop()
+=======
+from PersFinGUI import *
+
+init_GUI()
+>>>>>>> 1c55a20ba6c31f9adcb61bfd2523eacb3b437702
